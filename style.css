@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#c22333, #a31f61);
+    padding: 10px;
+}
+.to-dolist{
+      width: 500px;
+     min-height:50vh;
+      padding: 15px 15px;
+      margin: 100px auto;
+      background-color: #faf5f7;
+      text-align: center;
+      border-radius: 10px;
+}
+.to-dolist h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:tomato;
+    padding: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.inputs input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Kalnia;
+    font-weight: bold;
+   
+}
+.inputs button{
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    background-color: orangered;
+    color: #faf5f7;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: kalnia;
+    font-weight: bold;
+}
+.text  ul{
+    position: relative;
+    left: 40px;
+    color: orangered;
+    font-size: 15px;
+    font-family: kalnia;
+    font-weight: bold;
+    text-align: left;
+}
+.text ul i{
+    position: absolute;
+    right: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+}
